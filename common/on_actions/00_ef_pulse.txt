@@ -1,0 +1,36 @@
+# Root = country
+# seperated effects as suggested by Fangslash
+
+on_monthly_pulse_country = {
+	on_actions = {
+		EF_oa_monthly_1
+	}
+}
+on_half_yearly_pulse_country = {
+	on_actions = {
+		EF_oa_half_yearly_1
+	}
+}
+
+on_yearly_pulse_country = {
+	on_actions = {
+		EF_oa_yearly_1
+	}
+}
+
+on_five_year_pulse_country = {
+	on_actions = {
+		EF_oa_five_yearly_1
+	}
+}
+
+on_decade_pulse_country = {
+	effect = {
+	}
+}
+
+on_production_method_changed = {
+	on_actions = {
+		EF_oa_production_method_1
+	}
+}
